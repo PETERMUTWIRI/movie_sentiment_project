@@ -1,5 +1,5 @@
 import streamlit as st
-from transformer import AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
 from scipy.special import softmax
 
 # Load your model and tokenizer
